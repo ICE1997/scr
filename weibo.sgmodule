@@ -49,3 +49,7 @@ script_22 = type=http-response, pattern=^https:\/\/(sinaurl|t)\.cn\/ script-path
 ^https:\/\/bootrealtime\.uve\.weibo\.com\/v3\/ad\/realtime data="https://raw.githubusercontent.com/ICE1997/scr/main/empty_dict.json"
 ^https:\/\/card\.weibo\.com\/article\/m\/aj\/(reward|uvead)\? data="https://raw.githubusercontent.com/ICE1997/scr/main/empty_dict.json"
 ^https:\/\/weibo\.com\/ttarticle\/x\/m\/aj\/(reward|uvead)\? data="https://raw.githubusercontent.com/ICE1997/scr/main/empty_dict.json"
+
+[MITM]
+
+hostname = %APPEND% *.weibo.cn, *.weibo.com, sinaurl.cn, t.cn weibo.cn
