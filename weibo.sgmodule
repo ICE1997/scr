@@ -52,4 +52,4 @@ script_22 = type=http-response, pattern=^https:\/\/(sinaurl|t)\.cn\/ script-path
 
 [MITM]
 
-hostname = %APPEND% *.weibo.cn, *.weibo.com, sinaurl.cn, weibo.cn
+hostname = %APPEND% *.weibo.cn, *.weibo.com, sinaurl.cn, t.cn, weibo.cn
